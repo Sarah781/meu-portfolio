@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100;200;500&display=swap" rel="stylesheet">
@@ -11,7 +11,13 @@
 </head>
 
 <body>
-    <header></header>
+    <header class="cabeçalho">
+        <nav class="menu">
+            <a class="menu__link" href="/index.html">Home</a>
+            <a class="menu__link" href="/sobre.html">Sobre</a>
+            <a class="menu__link" href="/projetos.html">Projetos</a>
+        </nav>
+    </header>
 
     <main class="apresentacao"> <!-- Conteúdo principal da página -->
         <section class="apresentacao__conteudo">
@@ -19,14 +25,22 @@
             <p>Olá! Meu nome é <strong class="meunome">Sarah</strong>, sou desenvolvedora Front-end com especialidade em HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias.</p>
             <div class="redesSociais">
                 <h2 class="redesSociais__subtitulo">Acesse minhas redes:</h2>
-                <a class="contato" href="https://www.linkedin.com/in/sarah-santana-843394200/">Linkedin<a>
-                <a class="contato" href="https://github.com/Sarah781">Github<a>
+                <a class="contato" href="https://github.com/Sarah781">
+                    <img src="assets/github.png">
+                    Github
+                </a>
+                <a class="contato" href="https://www.linkedin.com/in/sarah-santana-843394200/">
+                    <img src="assets/linkedin.png">
+                    Linkedin
+                </a>
             </div>
         </section>
-        <img src="Imagem.png" alt="Sarah Santana">
+        <img src="assets/Imagem.png" alt="Sarah Santana">
     </main>
 
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Sarah Santana</p>
+    </footer>
 
 </body>
 
