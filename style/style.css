@@ -106,7 +106,7 @@ p {
 .rodape {
     color: var(--cor1);
     background-color: var(--cor3);
-    padding: 24px;
+    padding: 35px;
     text-align: center;
     font-family: var(--Montserrat);
     font-size: 24px;
@@ -115,9 +115,102 @@ p {
 
 /* sobre */
 
-
-
-
-
-
 /* projetos */
+.introducao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-top: 90px;
+    
+}
+
+.introducao__descricao{
+    width: 1520px;
+}
+
+.apresentacao__conteudo__descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: justify;
+    
+}
+
+.projeto{
+    color: var(--cor2);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    width: 889px;
+    gap: 40px;
+    justify-content: space-between;
+    
+}
+
+.titulo_projeto{
+    font-family: var(--KronaOne);
+}
+.parceiroAcademico{
+    text-decoration: none;
+    color: var(--cor4);
+
+}
+.descricao_projeto{
+    font-family: var(--Montserrat);
+    font-size: 24px;
+}
+
+.lista{
+    font-family: var(--Montserrat);
+    font-size: 24px;
+}
+
+.Projeto1{
+    width: 410px;
+    height: 890px;
+    flex-shrink: 0;
+    align-items: left;
+    margin-right: 50px;
+}
+
+.projeto2{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 660px;
+}
+
+.Projeto2{
+    width: 756px;
+    height: 560px;
+    flex-shrink: 0;
+    align-items: right;
+}
+
+.projeto3{
+    width: 600px;;
+    flex-shrink: 0;
+    align-items: right;
+}
+
+.Projeto3{
+    width: 758px;
+    height: 427px;
+    flex-shrink: 0;
+}
+
+.projeto4{
+    width: 750px;
+}
+
+.projeto5{
+    width: 700px;
+}
+
+.projeto6{
+    width: 700px;
+}
+
+
+
