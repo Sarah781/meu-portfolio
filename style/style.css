@@ -31,7 +31,7 @@ body {
 
 .menu__link{
     font-family: var(--Montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor3);
     text-decoration: none;
@@ -42,11 +42,12 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 5% 10%;
+    gap:82px;
 }
 
 h1 {
     font-family: var(--KronaOne);
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 strong {
@@ -59,11 +60,11 @@ strong.meunome {
 
 p {
     font-family: var(--Montserrat);
-    font-size: 24px;   
+    font-size: 1.5rem;   
 }
 
 .apresentacao__conteudo{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -80,7 +81,7 @@ p {
 .redesSociais__subtitulo{
     font-family: var(--KronaOne);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .contato {
@@ -88,11 +89,11 @@ p {
     justify-content: center;
     gap: 16px;
     display: flex;
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
     border: 2px solid var(--cor3);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0; /*o primeiro valor é para altura e o segundo para largura */
     text-decoration: none;
@@ -103,21 +104,321 @@ p {
     background-color: var(--cor5);
 }
 
+.apresentacao__imagem{
+    width:40%
+}
+
 .rodape {
     color: var(--cor1);
     background-color: var(--cor3);
-    padding: 24px;
+    padding: 35px;
     text-align: center;
     font-family: var(--Montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
 /* sobre */
 
-
-
-
-
+.conteudo__descricao{
+    text-align: justify;
+}
 
 /* projetos */
+.apresentacao_p2{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.apresentacao_p4{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.apresentacao_p6{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.introducao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-top: 68px;
+    
+}
+
+.introducao__descricao{
+    width: auto;
+    text-align: justify;
+}
+
+.apresentacao__conteudo__descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+    
+}
+
+.projeto{
+    color: var(--cor2);
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 36px;
+    width: auto;
+    gap: 40px;
+    justify-content: space-between;
+    
+}
+
+.titulo_projeto{
+    font-family: var(--KronaOne);
+}
+.parceiroAcademico{
+    text-decoration: none;
+    color: var(--cor4);
+
+}
+.descricao_projeto{
+    font-family: var(--Montserrat);
+    font-size: 1.5rem;
+}
+
+.lista{
+    font-family: var(--Montserrat);
+    font-size: 1.5rem;
+}
+
+.Projeto1{
+    width: auto;
+    height: 55.62rem;
+    flex-shrink: 0;
+    align-items: left;
+    margin-right: 100px;
+}
+
+.projeto2{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 30rem;
+    font-weight: 300;
+}
+
+.Projeto2{
+    align-items: right;
+    width: 100%;
+    height: 35rem;
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+
+.projeto3{
+    width: 36.5rem;
+    flex-shrink: 0;
+    align-items: right;
+    font-weight: 300;
+}
+
+.Projeto3{
+    width: 50%;
+    height: 26rem;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.projeto4{
+    margin-top: 50px;
+    width: 30rem;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+.Projeto4{
+    margin-top: 50px;
+    align-items: right;
+    width: 40%;
+    height: 40rem; 
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+
+.Projeto41{
+    margin-top: 50px;
+    align-items: right;
+    width: 40%;
+    height: 40rem; 
+    flex-shrink: 0;
+    margin-left: 10px;
+}
+
+.projeto5{
+    width: 30rem;
+    flex-shrink: 0;
+    align-items: right;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.Projeto5{
+    align-items: left;
+    width: 30%;
+    height: 35rem;
+}
+
+.Projeto51{
+    align-items: left;
+    width: 30%;
+    height: 35rem;
+
+}
+
+.projeto6{
+    width: 35rem;
+    font-weight: 300;
+}
+
+.Projeto6{
+    align-items: right;
+    width: 85%;
+    height: 20rem;
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+
+
+@media (max-width:1200px) {
+    .cabeçalho{
+        padding: 10%;
+    }
+    .menu{
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding:5%;
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
+    .introducao{
+        padding:5%;
+         width: auto;
+    }
+
+    .apresentacao_p2{
+        flex-direction: column;
+        padding:5%;
+        width: auto;
+    }
+
+    .apresentacao_p4{
+        flex-direction: column;
+        padding:2%;
+        width: auto;
+    }
+
+    .apresentacao_p6{
+        flex-direction: column;
+        padding:5%;
+        width: auto;
+    }
+
+    .apresentacao__conteudo__descricao{
+        width: auto;
+    }
+    .Projeto1{
+        width: auto;
+        height: auto;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    .projeto2{
+        width: auto;
+        margin-left: 0px;
+    }
+
+    .Projeto2{
+        align-items: center;
+        width: auto;
+        height: auto;
+        margin-left: 0px;
+    }
+
+    .projeto3{
+        width: auto;
+        height: 50%;
+        margin-right: 0px;
+    }
+
+    .Projeto3{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    .projeto4{
+        width: auto;
+        margin-left: 16px;
+    }
+
+    .Projeto4{
+        width: auto;
+        height: auto;
+        align-items: center;
+    }
+
+    .Projeto41{
+        width: auto;
+        height: auto;
+        align-items: center;
+    }
+
+    .projeto5{
+        width: auto;
+        margin-left: 0px;
+    }
+
+    .Projeto5{
+        width: auto;
+        height: auto;
+        align-items: center;
+    }
+
+    .Projeto51{
+        width: auto;
+        height: auto;
+        align-items: center;
+    }
+
+    .projeto6{
+        width: auto;
+        margin-left: 0px;
+    }
+
+
+    .Projeto6{
+        width: auto;
+        height: auto;
+        align-items: center;
+    }
+}
